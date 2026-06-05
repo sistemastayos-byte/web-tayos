@@ -1,36 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My App</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Tayos | Gestión de pedidos conectada con Odoo</title>
+
+    <link rel="stylesheet" href="landing.css" />
   </head>
+
   <body>
     <header>
-      <nav>
-        <div class="logo">My App</div>
+      <div class="container nav">
+        <div class="logo">Tayos</div>
 
-        <div class="menu">
-          <a href="index.html">Home</a>
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="terms.html">Terms & Conditions</a>
-        </div>
-      </nav>
+        <nav>
+          <a href="#features">Beneficios</a>
+          <a href="privacy.html">Privacidad</a>
+          <a href="terms.html">Términos</a>
+        </nav>
+      </div>
     </header>
 
-    <main class="container">
-      <section class="hero">
-        <h1>Welcome to My App</h1>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="badge">Conectado con Odoo</span>
+
+          <h1>
+            Gestiona pedidos y compras desde cualquier lugar.
+          </h1>
+
+          <p>
+            Tayos permite a clientes, distribuidores y proveedores consultar
+            productos, realizar pedidos y dar seguimiento a sus operaciones
+            comerciales directamente desde una aplicación móvil integrada con
+            Odoo.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#features" class="btn-primary">
+              Conocer más
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-images">
+          <img src="images/pantalla-2.jpeg" alt="Pantalla Tayos" />
+          <img src="images/pantalla-1.jpeg" alt="Pantalla Tayos" />
+          <img src="images/pantalla-3.jpeg" alt="Pantalla Tayos" />
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Todo el proceso comercial en tu bolsillo</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>📦 Catálogo de productos</h3>
+            <p>
+              Consulta repuestos, productos e inventario actualizado desde tu
+              dispositivo móvil.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>🛒 Pedidos rápidos</h3>
+            <p>
+              Realiza compras y solicitudes sin necesidad de llamadas o atención
+              manual.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>🔄 Integración con Odoo</h3>
+            <p>
+              Sincronización directa con tu operación comercial y procesos
+              empresariales.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>📈 Seguimiento</h3>
+            <p>
+              Revisa el estado de pedidos y solicitudes en tiempo real.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>🔒 Acceso seguro</h3>
+            <p>
+              Usuarios autorizados y controlados desde la plataforma Odoo.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>⚡ Operación eficiente</h3>
+            <p>
+              Reduce tiempos de atención y agiliza procesos comerciales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="odoo">
+      <div class="container">
+        <h2>Potenciado por Odoo</h2>
 
         <p>
-          Official legal information and policies for our mobile application.
+          Tayos se integra con Odoo para aprovechar la información de productos,
+          clientes, inventarios y pedidos ya existentes en tu organización.
         </p>
-      </section>
-    </main>
+      </div>
+    </section>
 
     <footer>
-      <p>© 2026 My App. All rights reserved.</p>
+      <div class="container footer">
+        <div>
+          <strong>Tayos</strong>
+          <p>Gestión comercial móvil conectada con Odoo.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="privacy.html">Política de Privacidad</a>
+          <a href="terms.html">Términos y Condiciones</a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
